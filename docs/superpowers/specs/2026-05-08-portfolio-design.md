@@ -2,8 +2,6 @@
 
 **Date:** 2026-05-08  
 **Stack:** Next.js 14 (App Router) + Tailwind CSS + TypeScript  
-**Inspired by:** brittanychiang.com
-
 ---
 
 ## Goal
@@ -102,7 +100,7 @@ Three cards with hover effect. Each card shows: title, description, tech tags, l
 
 **Card 2 — Ukrainian Cuisine**
 - Description: A website dedicated to traditional Ukrainian cuisine — recipes, dish descriptions, and cultural context.
-- Tech: HTML, CSS, JavaScript
+- Tech: Next.js, TypeScript, React.js, PostgreSQL, Prisma ORM, Auth.js, Tailwind CSS, HeroUI
 - Live: https://ukrainian-cuisine-21njy71dm-madevil88-2469s-projects.vercel.app/
 - GitHub: https://github.com/madevil88/Ukrainian_cuisine
 
