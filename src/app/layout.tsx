@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Sergey Chernenko — Frontend Developer',
   description:
     'Frontend Developer with 4+ years of experience. Specialized in React, Next.js, TypeScript, Pixi.js.',
+  other: {
+    freelancehunt: 'c5de35a7364167d',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
