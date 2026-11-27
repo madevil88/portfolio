@@ -16,6 +16,14 @@ export function About() {
           <span className="text-green">React / Next.js / TypeScript</span> stack.
         </p>
         <p>
+          I work as a freelance developer and provide{' '}
+          <span className="text-green">web development and ongoing technical support</span>{' '}
+          for business websites — Shopify and WordPress / WooCommerce stores — including
+          catalog and filter features, SEO, page speed, analytics and CRM integrations.
+          My customers are small and medium businesses in the US and Europe that order
+          development directly. For clients in Ukraine I also build Telegram Mini Apps.
+        </p>
+        <p>
           Currently expanding into Fullstack development — actively learning Go and NestJS,
           and building a microservices pet project with Redis, Docker, and VPS deployment.
         </p>

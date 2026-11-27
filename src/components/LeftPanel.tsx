@@ -36,6 +36,16 @@ export function LeftPanel({ activeSection }: Props) {
         <p className="mt-4 max-w-xs text-sm text-slate">
           I build interactive, accessible, and performant web experiences.
         </p>
+        <p className="mt-4 max-w-xs text-sm text-slate">
+          Available for freelance projects — web development and support for business
+          websites.
+        </p>
+        <a
+          href="mailto:madevil88@gmail.com"
+          className="mt-2 inline-block text-sm text-green transition-colors hover:text-slate-lightest"
+        >
+          madevil88@gmail.com
+        </a>
         <nav className="mt-12 hidden md:block" aria-label="In-page links">
           {NAV_ITEMS.map((item) => (
             <NavLink

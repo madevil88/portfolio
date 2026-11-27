@@ -21,15 +21,17 @@ export function ProjectCard({ project }: Props) {
             <span className="ml-1 inline-block translate-y-px text-xs">↗</span>
           </a>
         </h3>
-        <a
-          href={project.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="shrink-0 text-slate transition-colors hover:text-slate-lightest"
-          aria-label={`${project.title} GitHub repository`}
-        >
-          <GitHubIcon />
-        </a>
+        {project.github && (
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 text-slate transition-colors hover:text-slate-lightest"
+            aria-label={`${project.title} GitHub repository`}
+          >
+            <GitHubIcon />
+          </a>
+        )}
       </div>
       <p className="mb-3 text-sm text-slate">{project.description}</p>
       <div className="flex flex-wrap gap-2">
